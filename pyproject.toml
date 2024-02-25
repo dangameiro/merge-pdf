@@ -13,4 +13,4 @@ requires = ["setuptools>=43.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project.scripts]
-pdf-merge = "pdf_merge.pdf_merge:pdf_merge"
+pdf-merge = "pdf_merge.pdf_merge:main_cli"
