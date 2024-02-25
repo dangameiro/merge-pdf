@@ -11,17 +11,3 @@ def pdf_merge (front, back, output='pdf_out.pdf'):
         output_pdf.add_page(back_pdf.pages[-(i+1)])
     
     output_pdf.write(output)
-    
-if __name__ == '__main__':
-    
-    if (len(sys.argv) < 3):
-        print("Usage: python pdf-merge.py front.pdf back.pdf [output.pdf]")
-        
-    front = sys.argv[1]
-    back = sys.argv[2]
-    
-    if (len(sys.argv) == 4):
-        output = sys.argv[3]
-        pdf_merge(front, back, output)
-    else:
-        pdf_merge(front, back)
