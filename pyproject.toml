@@ -1,0 +1,16 @@
+[project]
+name = "pdf_merge"
+version = "1.0.0"
+description = "Merge pdf"
+license = {file = "LICENSE.txt"}
+requires-python = ">=3.7"
+dependencies = [
+  "PyPDF2>=3.0.1"
+]
+
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+pdf-merge = "pdf_merge:pdf_merge"
