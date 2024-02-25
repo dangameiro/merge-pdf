@@ -1,7 +1,7 @@
 from PyPDF2 import PdfReader, PdfWriter
 import sys
 
-def pdf_merge(front, back, output='pdf_out.pdf'):
+def pdf_merge(front, back, output='output.pdf'):
     front_pdf = PdfReader(front)
     back_pdf = PdfReader(back)
     output_pdf = PdfWriter()

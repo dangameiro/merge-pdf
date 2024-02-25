@@ -2,7 +2,7 @@ import pdf_merge
 import sys
 
 if (len(sys.argv) < 3):
-    print("Usage: python pdf-merge.py front.pdf back.pdf [output.pdf]")
+    print("Usage: merge-pdf front.pdf back.pdf [output.pdf]")
     exit()
 
 front = sys.argv[1]
