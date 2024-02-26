@@ -1,4 +1,4 @@
-# pdf-merge
+# merge-pdf
 
 Merge two PDFs of front and back page scans.
 
